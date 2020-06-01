@@ -37,7 +37,7 @@
                   <v-flex xs12>
                     <div class="text-xs-center">
                     <v-btn round  type="submit" :disabled="loading" :loading="loading">
-                      Sign in
+                      Entrar
                       <v-icon right>lock_open</v-icon>
                       <span slot="loader" class="custom-loader">
                         <v-icon light>cached</v-icon>

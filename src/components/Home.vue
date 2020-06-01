@@ -5,7 +5,7 @@
         <v-card>
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">Welcome to Your Vue.js firebase auth with PWA</h3>
+              <h3 class="headline mb-0">Home Page</h3>
               <div></div>
             </div>
           </v-card-title>

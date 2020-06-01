@@ -26,7 +26,7 @@
         @click.stop="sideNav = !sideNav"
         class="hidden-sm-and-up "></v-toolbar-side-icon>
       <v-toolbar-title>
-        <router-link to="/" tag="span" style="cursor: pointer">Firebase Auth Vuex</router-link>
+        <router-link to="/" tag="span" style="cursor: pointer">Hoteles</router-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
@@ -65,8 +65,8 @@
     computed: {
       menuItems () {
         let menuItems = [
-          {icon: 'face', title: 'Sign up', link: '/signup'},
-          {icon: 'lock_open', title: 'Sign in', link: '/signin'}
+          {icon: 'face', title: 'Registrarse', link: '/signup'},
+          {icon: 'lock_open', title: 'Entrar', link: '/signin'}
         ]
         if (this.userIsAuthenticated) {
           menuItems = [
